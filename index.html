@@ -1,1 +1,64 @@
+<!-- 
+		Name: Justin Schnees
+		Class: CSCI2447, Javascript Fundamentals
+		
+		Whack-a-Genji is a game made for my CSCI2447 JavaScript Class, "finished" on 12-05-17 at 2pm.
+		Based on the Bizzard game Overwatch. https://playoverwatch.com/
+		I did not create the artwork for this game, however the design and code are my own, as much as one can own code.
+		
+		artwork sources
+		http://www.wallpapermaiden.com/wallpaper/13826/hanamura-map-overwatch-traditional-japanese-sakura-trees/download/1920x1080
+		https://overwatch.gamepedia.com/File:Genji-portrait.png
 
+
+ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Whack-A-Genji (CSCI2447)</title>
+    
+    <!-- CSS styles: This is for me to worry about; not you. -->
+	<link href="css/game.css" rel="stylesheet" />
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/myscript.js"></script>
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  
+  <div class="container-fluid">
+  <div class="row">
+  
+	<!-- genji - title - directions bar-->
+	<div id="genji"></div>
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6"><div id="gameTitle">Whack-A-Genji</div></div>
+	<div class="col-sm-3">
+		<div id="directionsBox"><strong>Directions</strong>: You have 30 seconds when the timer starts to heal genji as much as possible as he bounces around asking for healing.</div>
+	</div>
+
+	<!-- gamespace - score - controls-->
+
+	<div class="col-sm-12">
+	<div class="col-sm-3"><div id="scoreBox">0 points</div></div>
+	<div class="col-sm-6"><div id="gamespaceBackground"><div id="gamespace"></div></div></div>
+	<div class="col-sm-3">
+		<div id="start_button" class="button">Start!</div>
+		<div id="pause_button" class="button">Pause!</div>
+		<div id="reset_button" class="button">Reset!</div>
+		<div id="timer">30 seconds</div>
+	</div>
+	</div>
+  </div>
+</div>		
+</body>
+</html>
