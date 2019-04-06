@@ -1,7 +1,8 @@
 # GenjiGame
 
-Whack-a-Genji is a game made for my CSCI2447 JavaScript Class, "finished" on 12-05-17 at 2pm.
-Based on the Bizzard game Overwatch. https://playoverwatch.com/
+Whack-a-Genji is a game made for my CSCI2447 JavaScript Class.
+Based on the Blizzard game Overwatch. https://playoverwatch.com/
+We were tasked to create a "Whack a Mole style game using jQuery.
 
 I did not create the artwork for this game, however the design and code are my own, as much as one can own code.
 		
