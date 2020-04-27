@@ -9,3 +9,5 @@ I did not create the artwork for this game, however the design and code are my o
 Artwork sources
 http://www.wallpapermaiden.com/wallpaper/13826/hanamura-map-overwatch-traditional-japanese-sakura-trees/download/1920x1080
 https://overwatch.gamepedia.com/File:Genji-portrait.png
+
+Play it here: https://jschnees.github.io/GenjiGame/index.html
